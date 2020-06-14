@@ -1,15 +1,55 @@
-.text-one {
-    color: red;
+/* .first {
+    text-align: center;
 }
 
-.text-one::before,
+.first::before {
+    content: '';
+    width: 124px;
+    height: 5px;
+    display: block;
+    background-color: indigo;
+    margin: 0 auto;
+}
+
+.first::after {
+    content: '';
+    background-color: lightcoral;
+    width: 124px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+} */
+
+
+/* .text-one::before,
+.text-one::after {
+    content: '\2656';
+    display: inline-block;
+    color: indigo;
+    font-size: 20px;
+
+} */
+
+/* .text-one::before,
 .text-one::after {
     content: '';
-    width: 40px;
-    height: 40px;
     display: inline-block;
-    background-color: blue;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center;
+    vertical-align: middle;
+
 }
+
+.text-one::before {
+    background-image: url('../img/facebook.png');
+}
+
+.text-one::after {
+    background-image: url('../img/facebook.png');
+}
+
 
 .box {
     width: 100px;
@@ -24,4 +64,40 @@
     height: 40px;
     width: 40px;
     background-color: brown;
+}
+
+.text-two::selection {
+    color: green;
+    background-color: hotpink;
+} */
+
+.container {
+    padding: 20px;
+    background-color: lightslategrey;
+}
+
+.first-block {
+    float: right;
+    /* float: left; */
+    width: 250px;
+    height: 150px;
+    background-color: red;
+}
+
+.second-block {
+    clear: right;
+    float: right;
+    /* float: left; */
+    width: 300px;
+    height: 175px;
+    background-color: green;
+}
+
+.third-block {
+    clear: right;
+    float: right;
+    /* float: left; */
+    width: 350px;
+    height: 200px;
+    background-color: blue;
 }
