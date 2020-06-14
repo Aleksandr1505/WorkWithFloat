@@ -1,0 +1,27 @@
+.text-one {
+    color: red;
+}
+
+.text-one::before,
+.text-one::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blue;
+    text-align: center;
+}
+
+.span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: brown;
+}
